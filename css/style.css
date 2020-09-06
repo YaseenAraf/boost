@@ -1,0 +1,167 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*global css here*/
+*{
+	margin: 0;
+	padding: 0
+}
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*header css starts here*/
+.header{
+	width: 100%
+}
+.navbar{
+	margin: 25px 0;
+}
+.nav-item{
+	    margin-left: 60px
+}
+.nav-link{
+	color: #b4ad9e !important;
+	transition: all 0.5s ease-in-out;
+}
+.nav-link:hover{
+    color: black !important;
+    transition: all 0.5s ease-in-out;
+}
+
+/*header css ends here*/
+
+
+/*single-blog starts*/
+
+.single-blog{
+	width: 100%;
+}
+.blog-description span{
+   color: #b4ad9e;
+}
+.blog-description{
+    margin: 75px;
+}
+.blog-description h1{
+	    margin: 20px 0px;
+}
+.blog-description p{
+	    margin-bottom: 2rem;
+}
+/*single-blog ends*/
+
+/*blog gallery starts*/
+.blog-gallery{
+      margin:75px;
+}
+.post img{
+	    margin-bottom: 2rem;
+
+}
+.post h2{
+	margin: 20px 0px;
+}
+.post span{
+	 color: #b4ad9e;
+}
+.post .post-description p{
+	
+}
+.post a{
+     color: #b4ad9e;
+}
+.blog-gallery .col-md-6{
+	margin-bottom: 4rem;
+}
+
+
+/*blog gallery ends*/
+
+
+/*subscription starts*/
+
+.subscribe{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 50px 0;
+	text-align: center;
+}	
+.subscribe h2{
+	    font-weight: 400;
+
+
+}
+form input{
+	     padding: 20px 0 5px 0;
+	     width: 35%;
+	     margin-top: 12px;
+	    background: transparent;
+	    border:none;
+	    border-bottom: 1px solid black;
+	    
+}
+form input:focus{
+	outline: none;
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 30px;
+    right: 33%;
+}
+
+
+/*subscription ends*/
+
+/*button css starts here*/
+
+.load{
+	margin: 80px 0 20px 0;
+	text-align: center;
+}
+.load .butt{
+	    padding: 12px 30px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 18px;
+    color: #b4ad9e
+}
+.load button:hover{
+	color: black
+}
+
+
+
+/*button css ends here*/
+
+/*footer sec css starts here*/
+.footer{
+	width: 100%;
+	background: #f0f0f0;
+	    padding: 40px;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer ul li a{
+	color: black;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.left ul li{
+	margin-right: 25px
+
+}
+.right ul li{
+   margin-left: 25px
+}
+/*footer sec css ends here*/
